@@ -49,7 +49,7 @@ public class OptionMenu extends Account {
 		public void registerAccount() {
 			System.out.println("\n===== Register New Account =====");
 			
-			System.out.println("Enter a Customer Number (unique): ");
+			System.out.println("Enter a New Customer Number (unique): ");
 			int customerNo = menuInput.nextInt();
 			
 			if (data.containsKey(customerNo)) {
@@ -57,7 +57,7 @@ public class OptionMenu extends Account {
 	            return;
 			}
 			
-			System.out.println("Enter a 4-6 digit PIN");
+			System.out.println("Enter a New 4-6 digit PIN");
 			int pin = menuInput.nextInt();
 			
 			menuInput.nextLine();
